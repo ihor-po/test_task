@@ -3,6 +3,7 @@
 namespace frontend\controllers;
 
 use frontend\models\Products;
+use yii\data\Pagination;
 
 class ProductsController extends \yii\web\Controller
 {
