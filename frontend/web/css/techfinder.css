@@ -252,3 +252,29 @@
     color:#777777;
     padding: 6px 0 0 12px;
 }
+.footer .container{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column; /* Safari */
+    flex-direction: column;
+    -webkit-justify-content: center; /* Safari */
+    justify-content: center;
+    text-align: center;
+}
+.footer .container img {
+    width: 12%;
+    margin-left: 45%;
+}
+.footer .container p{
+    margin-top: 30px;
+    margin-left: 4%;
+    font-family: "Open Sans";
+    color: #c7c7c7;
+    text-transform: uppercase;
+}
+.footer .container p a{
+    margin: 0px 10px;
+    font-family: "Open Sans";
+    color: #c7c7c7;
+    text-transform: uppercase;
+}

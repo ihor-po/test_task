@@ -63,9 +63,9 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
-
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <img src="img\pagin.png">
+        <img src="img\footer-logo.png">
+        <p><a href="/">einfach.kaufen</a>|<a href="/">impressum</a>|<a href="/">datenschutz</a>|<a href="/">kontakt</a>|<a href="/">agb verbraucher</a>|<a href="/">agb handler</a></p>
     </div>
 </footer>
 
